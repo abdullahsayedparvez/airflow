@@ -1,2 +1,2 @@
 .env
-airflow_env
+airflow_env/
