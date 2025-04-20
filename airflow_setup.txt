@@ -1,1 +1,11 @@
-make a airf
+#######installation mongodb in ubuntu###########
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.46.0_amd64.deb -P ~/Downloads
+sudo dpkg -i ~/Downloads/mongodb-compass_1.46.0_amd64.deb
+sudo apt --fix-broken install  # Just in case it needs dependencies
+
+access with this command -->  mongodb-compass
+access the mongodb with CLI --> mongosh
+
+insert the any file in the form of binary and than insert it into mongodb
+read the file with the help of BytesIO 
+
