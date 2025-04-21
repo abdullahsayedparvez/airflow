@@ -3718,3 +3718,126 @@ Traceback (most recent call last):
 ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
 [2025-04-20T04:05:11.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
 [2025-04-20T04:05:11.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 1.068 seconds
+[2025-04-20T04:05:44.528+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:05:44.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:05:44.537+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:05:44.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:05:45.230+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:05:45.224+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:05:45.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:05:45.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.752 seconds
+[2025-04-20T04:06:15.436+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:15.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:06:15.438+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:06:15.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:16.723+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:06:16.714+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:06:16.724+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:16.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 1.329 seconds
+[2025-04-20T04:06:47.278+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:47.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:06:47.280+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:06:47.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:47.569+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:06:47.568+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:06:47.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:06:47.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.312 seconds
+[2025-04-20T04:07:18.119+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:18.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:07:18.122+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:07:18.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:18.622+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:07:18.616+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:07:18.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:18.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.547 seconds
+[2025-04-20T04:07:49.293+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:49.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:07:49.296+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:07:49.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:49.620+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:07:49.618+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:07:49.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:07:49.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.348 seconds
+[2025-04-20T04:08:20.351+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:08:20.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:08:20.352+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:08:20.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:08:21.317+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:08:21.316+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 8, in <module>
+    from pymongo import MongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/__init__.py", line 91, in <module>
+    from pymongo.asynchronous.mongo_client import AsyncMongoClient
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/asynchronous/mongo_client.py", line 64, in <module>
+    from pymongo import _csot, common, helpers_shared, periodic_executor
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/common.py", line 39, in <module>
+    from bson import SON
+ImportError: cannot import name 'SON' from 'bson' (/home/airflow/.local/lib/python3.10/site-packages/bson/__init__.py)
+[2025-04-20T04:08:21.318+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:08:21.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.983 seconds
+[2025-04-20T04:08:52.343+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-20T04:08:52.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-20T04:08:52.351+0000] {logging_mixin.py:188} INFO - [2025-04-20T04:08:52.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py

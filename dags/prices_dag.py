@@ -94,7 +94,12 @@ with DAG(
         }
 
         # Insert the file document into the collection
-        MONGODB_COLLECTION.insert_one(file_doc)
+        print(MONGODB_COLLECTION)
+        print(type(MONGODB_COLLECTION))
+        collection = db[MONGODB_COLLECTION]
+        print(f'mongodb host --> {MONGODB_HOST}')
+        collection.insert_one(file_doc)
+        
         print(f"File {os.path.basename(file_path)} stored successfully in MongoDB!")
     # defining tasks
     task_fetch_data = PythonOperator(
