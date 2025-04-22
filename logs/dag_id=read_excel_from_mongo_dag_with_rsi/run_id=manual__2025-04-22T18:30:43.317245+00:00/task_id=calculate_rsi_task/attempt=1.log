@@ -1,0 +1,41 @@
+[2025-04-22T18:30:46.937+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.calculate_rsi_task manual__2025-04-22T18:30:43.317245+00:00 [queued]>
+[2025-04-22T18:30:46.946+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.calculate_rsi_task manual__2025-04-22T18:30:43.317245+00:00 [queued]>
+[2025-04-22T18:30:46.946+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-22T18:30:46.958+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): calculate_rsi_task> on 2025-04-22 18:30:43.317245+00:00
+[2025-04-22T18:30:46.965+0000] {standard_task_runner.py:60} INFO - Started process 493 to run task
+[2025-04-22T18:30:46.968+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'read_excel_from_mongo_dag_with_rsi', 'calculate_rsi_task', 'manual__2025-04-22T18:30:43.317245+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/indicator_dag.py', '--cfg-path', '/tmp/tmpz2d9h79m']
+[2025-04-22T18:30:46.972+0000] {standard_task_runner.py:88} INFO - Job 63: Subtask calculate_rsi_task
+[2025-04-22T18:30:47.030+0000] {task_command.py:423} INFO - Running <TaskInstance: read_excel_from_mongo_dag_with_rsi.calculate_rsi_task manual__2025-04-22T18:30:43.317245+00:00 [running]> on host d74a111b0616
+[2025-04-22T18:30:47.206+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_excel_from_mongo_dag_with_rsi' AIRFLOW_CTX_TASK_ID='calculate_rsi_task' AIRFLOW_CTX_EXECUTION_DATE='2025-04-22T18:30:43.317245+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-22T18:30:43.317245+00:00'
+[2025-04-22T18:30:47.213+0000] {logging_mixin.py:188} INFO - RSI Calculated:
+[2025-04-22T18:30:47.220+0000] {logging_mixin.py:188} INFO -           Date       Close        RSI
+0   2024-04-22  158.653503        NaN
+1   2024-04-23  157.967316        NaN
+2   2024-04-24  162.280426        NaN
+3   2024-04-25  164.387955        NaN
+4   2024-04-26  162.525482        NaN
+..         ...         ...        ...
+242 2025-04-11  133.419998  21.609054
+243 2025-04-15  136.410004  27.486531
+244 2025-04-16  136.970001  26.567634
+245 2025-04-17  137.139999  27.864419
+246 2025-04-21  139.179993  31.672910
+
+[247 rows x 3 columns]
+[2025-04-22T18:30:47.220+0000] {python.py:201} INFO - Done. Returned value was:            Ticker       Date        Open  ...       Close    Volume        RSI
+0    TATASTEEL.NS 2024-04-22  160.564988  ...  158.653503  39304790        NaN
+1    TATASTEEL.NS 2024-04-23  160.270910  ...  157.967316  30295177        NaN
+2    TATASTEEL.NS 2024-04-24  159.241644  ...  162.280426  59894921        NaN
+3    TATASTEEL.NS 2024-04-25  162.133376  ...  164.387955  50128523        NaN
+4    TATASTEEL.NS 2024-04-26  164.682030  ...  162.525482  65355111        NaN
+..            ...        ...         ...  ...         ...       ...        ...
+242  TATASTEEL.NS 2025-04-11  134.669998  ...  133.419998  73706472  21.609054
+243  TATASTEEL.NS 2025-04-15  135.600006  ...  136.410004  38967608  27.486531
+244  TATASTEEL.NS 2025-04-16  136.410004  ...  136.970001  42684087  26.567634
+245  TATASTEEL.NS 2025-04-17  134.399994  ...  137.139999  62282856  27.864419
+246  TATASTEEL.NS 2025-04-21  137.649994  ...  139.179993  26503486  31.672910
+
+[247 rows x 8 columns]
+[2025-04-22T18:30:47.258+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=read_excel_from_mongo_dag_with_rsi, task_id=calculate_rsi_task, execution_date=20250422T183043, start_date=20250422T183046, end_date=20250422T183047
+[2025-04-22T18:30:47.303+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-22T18:30:47.322+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

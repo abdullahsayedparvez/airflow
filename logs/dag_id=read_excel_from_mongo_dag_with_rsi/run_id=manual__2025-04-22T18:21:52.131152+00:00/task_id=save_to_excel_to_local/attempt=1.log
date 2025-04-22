@@ -1,0 +1,40 @@
+[2025-04-22T18:21:56.958+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.save_to_excel_to_local manual__2025-04-22T18:21:52.131152+00:00 [queued]>
+[2025-04-22T18:21:57.111+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.save_to_excel_to_local manual__2025-04-22T18:21:52.131152+00:00 [queued]>
+[2025-04-22T18:21:57.111+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-22T18:21:57.122+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): save_to_excel_to_local> on 2025-04-22 18:21:52.131152+00:00
+[2025-04-22T18:21:57.130+0000] {standard_task_runner.py:60} INFO - Started process 1268 to run task
+[2025-04-22T18:21:57.133+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'read_excel_from_mongo_dag_with_rsi', 'save_to_excel_to_local', 'manual__2025-04-22T18:21:52.131152+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/indicator_dag.py', '--cfg-path', '/tmp/tmpg4lxf4nv']
+[2025-04-22T18:21:57.135+0000] {standard_task_runner.py:88} INFO - Job 56: Subtask save_to_excel_to_local
+[2025-04-22T18:21:57.176+0000] {task_command.py:423} INFO - Running <TaskInstance: read_excel_from_mongo_dag_with_rsi.save_to_excel_to_local manual__2025-04-22T18:21:52.131152+00:00 [running]> on host d74a111b0616
+[2025-04-22T18:21:57.313+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_excel_from_mongo_dag_with_rsi' AIRFLOW_CTX_TASK_ID='save_to_excel_to_local' AIRFLOW_CTX_EXECUTION_DATE='2025-04-22T18:21:52.131152+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-22T18:21:52.131152+00:00'
+[2025-04-22T18:21:57.432+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/indicator_dag.py", line 78, in save_to_excel_to_local
+    df.to_excel(file_path, index=False)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 2374, in to_excel
+    formatter.write(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/formats/excel.py", line 944, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/excel/_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1313, in __init__
+    self._handles = get_handle(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: '/opt/airflow/data/intermediate/tatasteel_with_rsi.xlsx'
+[2025-04-22T18:21:57.458+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=read_excel_from_mongo_dag_with_rsi, task_id=save_to_excel_to_local, execution_date=20250422T182152, start_date=20250422T182156, end_date=20250422T182157
+[2025-04-22T18:21:57.475+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 56 for task save_to_excel_to_local ([Errno 13] Permission denied: '/opt/airflow/data/intermediate/tatasteel_with_rsi.xlsx'; 1268)
+[2025-04-22T18:21:57.505+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-04-22T18:21:57.523+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
