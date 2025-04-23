@@ -1,0 +1,14 @@
+[2025-04-23T17:40:17.684+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.store_in_mysql_task manual__2025-04-23T17:40:13.484613+00:00 [queued]>
+[2025-04-23T17:40:17.693+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.store_in_mysql_task manual__2025-04-23T17:40:13.484613+00:00 [queued]>
+[2025-04-23T17:40:17.694+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-23T17:40:17.707+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): store_in_mysql_task> on 2025-04-23 17:40:13.484613+00:00
+[2025-04-23T17:40:17.717+0000] {standard_task_runner.py:60} INFO - Started process 323 to run task
+[2025-04-23T17:40:17.720+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'read_excel_from_mongo_dag_with_rsi', 'store_in_mysql_task', 'manual__2025-04-23T17:40:13.484613+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/indicator_dag.py', '--cfg-path', '/tmp/tmpxeyaekrt']
+[2025-04-23T17:40:17.722+0000] {standard_task_runner.py:88} INFO - Job 76: Subtask store_in_mysql_task
+[2025-04-23T17:40:17.781+0000] {task_command.py:423} INFO - Running <TaskInstance: read_excel_from_mongo_dag_with_rsi.store_in_mysql_task manual__2025-04-23T17:40:13.484613+00:00 [running]> on host 8291240c5d79
+[2025-04-23T17:40:17.969+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_excel_from_mongo_dag_with_rsi' AIRFLOW_CTX_TASK_ID='store_in_mysql_task' AIRFLOW_CTX_EXECUTION_DATE='2025-04-23T17:40:13.484613+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-23T17:40:13.484613+00:00'
+[2025-04-23T17:40:18.051+0000] {logging_mixin.py:188} INFO - ❌ MySQL Insert Error: (1049, "Unknown database 'intermediate'")
+[2025-04-23T17:40:18.051+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-04-23T17:40:18.063+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=read_excel_from_mongo_dag_with_rsi, task_id=store_in_mysql_task, execution_date=20250423T174013, start_date=20250423T174017, end_date=20250423T174018
+[2025-04-23T17:40:18.093+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-23T17:40:18.109+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

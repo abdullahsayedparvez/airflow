@@ -1,0 +1,247 @@
+[2025-04-23T17:00:16.302+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:16.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:00:16.304+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:00:16.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:16.932+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:00:16.934+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:00:16.932+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:00:16.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:16.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.652 seconds
+[2025-04-23T17:00:47.317+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:47.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:00:47.319+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:00:47.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:47.781+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:00:47.783+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:00:47.782+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:00:47.783+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:00:47.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.481 seconds
+[2025-04-23T17:01:18.757+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:18.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:01:18.759+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:01:18.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:19.385+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:01:19.388+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:01:19.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:01:19.388+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:19.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.657 seconds
+[2025-04-23T17:01:51.329+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:51.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:01:51.331+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:01:51.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:51.813+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:01:51.815+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:01:51.813+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:01:51.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:01:51.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.501 seconds
+[2025-04-23T17:02:22.778+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:22.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:02:22.781+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:02:22.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:23.448+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:02:23.449+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:02:23.448+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:02:23.450+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:23.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.690 seconds
+[2025-04-23T17:02:55.955+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:55.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:02:55.957+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:02:55.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:56.538+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:02:56.541+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:02:56.539+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:02:56.541+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:02:56.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.623 seconds
+[2025-04-23T17:03:29.048+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:03:29.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:03:29.049+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:03:29.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:03:29.498+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:03:29.500+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:03:29.499+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:03:29.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:03:29.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.470 seconds
+[2025-04-23T17:04:01.920+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:01.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:04:01.922+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:04:01.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:02.354+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:04:02.355+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:04:02.354+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:04:02.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:02.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.451 seconds
+[2025-04-23T17:04:34.307+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:34.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:04:34.309+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:04:34.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:34.801+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:04:34.803+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:04:34.802+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:04:34.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:04:34.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.513 seconds
+[2025-04-23T17:07:00.295+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:00.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:07:00.296+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:07:00.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:00.790+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:07:00.792+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:07:00.791+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:07:00.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:00.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.517 seconds
+[2025-04-23T17:07:31.363+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:31.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:07:31.365+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:07:31.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:31.830+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:07:31.832+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:07:31.831+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:07:31.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:07:31.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.485 seconds
+[2025-04-23T17:08:02.283+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:02.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:08:02.285+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:08:02.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:02.740+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:08:02.741+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:08:02.740+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:08:02.741+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:02.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.475 seconds
+[2025-04-23T17:08:33.482+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:33.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-23T17:08:33.484+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:08:33.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:33.957+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-23T17:08:33.959+0000] {logging_mixin.py:188} INFO - [2025-04-23T17:08:33.958+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/prices_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/prices_dag.py", line 26, in <module>
+    client = MongoClient(MONGODB_HOST)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py", line 796, in __init__
+    res = _validate_uri(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pymongo/uri_parser_shared.py", line 479, in _validate_uri
+    raise InvalidURI(f"Invalid URI scheme: URI must begin with '{SCHEME}' or '{SRV_SCHEME}'")
+pymongo.errors.InvalidURI: Invalid URI scheme: URI must begin with 'mongodb://' or 'mongodb+srv://'
+[2025-04-23T17:08:33.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:08:33.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.495 seconds

@@ -1630,3 +1630,51 @@ Please take a look at these docs to improve your DAG import time:
 [2025-04-22T19:25:17.235+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:17.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-04-22T19:25:17.244+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:17.244+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
 [2025-04-22T19:25:17.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.512 seconds
+[2025-04-22T19:25:49.660+0000] {processor.py:161} INFO - Started process (PID=710) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:25:49.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:25:49.662+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:49.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:25:50.155+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:25:50.163+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:25:50.184+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:50.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:25:50.194+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:50.194+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:25:50.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.551 seconds
+[2025-04-22T19:26:22.607+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:22.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:26:22.609+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:22.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:23.121+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:26:23.129+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:23.146+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:23.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:26:23.154+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:23.154+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:26:23.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.566 seconds
+[2025-04-22T19:26:55.095+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:55.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:26:55.097+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:55.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:55.619+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:26:55.627+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:26:55.645+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:55.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:26:55.654+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:55.654+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:26:55.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.576 seconds
+[2025-04-22T19:27:27.666+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:27:27.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:27:27.668+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:27.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:27:28.151+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:27:28.158+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:27:28.176+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:28.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:27:28.185+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:28.185+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:27:28.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.536 seconds
+[2025-04-22T19:28:00.687+0000] {processor.py:161} INFO - Started process (PID=806) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:00.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:28:00.701+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:00.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:01.321+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:28:01.330+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:01.355+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:01.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:28:01.366+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:01.366+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:28:01.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.729 seconds
+[2025-04-22T19:28:33.164+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:33.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_dag.py for tasks to queue
+[2025-04-22T19:28:33.166+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:33.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:33.606+0000] {logging_mixin.py:188} INFO - /opt/airflow/data
+[2025-04-22T19:28:33.614+0000] {processor.py:840} INFO - DAG(s) 'prices_dag' retrieved from /opt/airflow/dags/prices_dag.py
+[2025-04-22T19:28:33.633+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:33.632+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:28:33.641+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:33.641+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag to None, run_after=None
+[2025-04-22T19:28:33.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_dag.py took 0.493 seconds

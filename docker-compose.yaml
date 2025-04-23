@@ -17,8 +17,13 @@ x-airflow-common:
     AIRFLOW_UID: "${AIRFLOW_UID}"  
     DATA_DIR: /opt/airflow/data
     MONGODB_HOST: "${MONGODB_HOST}"
-    MONGODB_DAATBASE: "${MONGODB_DAATBASE}"
+    MONGODB_DATABASE: "${MONGODB_DATABASE}"
     MONGODB_COLLECTION: "${MONGODB_COLLECTION}"
+    MYSQL_HOST: "${MYSQL_HOST}"
+    MYSQL_PORT: "${MYSQL_PORT}"
+    MYSQL_USERNAME: "${MYSQL_USERNAME}"
+    MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
+    MYSQL_DATABASE: "${MYSQL_DATABASE}"
   volumes:
      - ./dags:/opt/airflow/dags
      - ./plugins:/opt/airflow/plugins

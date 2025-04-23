@@ -1385,3 +1385,45 @@ Please take a look at these docs to improve your DAG import time:
 [2025-04-22T19:25:16.792+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:16.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-04-22T19:25:16.801+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:16.801+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
 [2025-04-22T19:25:16.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.591 seconds
+[2025-04-22T19:25:49.109+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:25:49.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:25:49.110+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:49.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:25:49.661+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:25:49.695+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:49.694+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:25:49.704+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:25:49.704+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:25:49.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.615 seconds
+[2025-04-22T19:26:22.060+0000] {processor.py:161} INFO - Started process (PID=727) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:22.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:26:22.062+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:22.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:22.611+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:22.646+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:22.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:26:22.661+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:22.661+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:26:22.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.619 seconds
+[2025-04-22T19:26:54.533+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:54.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:26:54.535+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:54.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:55.264+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:26:55.284+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:55.284+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:26:55.293+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:26:55.293+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:26:55.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.778 seconds
+[2025-04-22T19:27:27.164+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:27:27.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:27:27.165+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:27.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:27:27.677+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:27:27.696+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:27.696+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:27:27.705+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:27:27.705+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:27:27.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.559 seconds
+[2025-04-22T19:28:00.048+0000] {processor.py:161} INFO - Started process (PID=799) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:00.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:28:00.051+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:00.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:00.724+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:00.752+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:00.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:28:00.771+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:00.771+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:28:00.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.749 seconds
+[2025-04-22T19:28:32.650+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:32.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prices_data_diff_method.py for tasks to queue
+[2025-04-22T19:28:32.652+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:32.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:33.181+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/prices_data_diff_method.py
+[2025-04-22T19:28:33.201+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:33.201+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-22T19:28:33.211+0000] {logging_mixin.py:188} INFO - [2025-04-22T19:28:33.210+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-22T19:28:33.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prices_data_diff_method.py took 0.578 seconds

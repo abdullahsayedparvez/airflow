@@ -13972,3 +13972,1117 @@ File Path                                     PID    Runtime      # DAGs    # Er
 /opt/airflow/dags/indicator_dag.py                                     1           0  0.53s           2025-04-22T19:25:16
 /opt/airflow/dags/prices_dag.py                                        1           0  0.54s           2025-04-22T19:25:17
 ================================================================================
+[2025-04-22T19:26:02.269+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.64s           2025-04-22T19:25:49
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.55s           2025-04-22T19:25:49
+/opt/airflow/dags/prices_dag.py                                        1           0  0.58s           2025-04-22T19:25:50
+================================================================================
+[2025-04-22T19:26:35.226+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.65s           2025-04-22T19:26:22
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-22T19:26:22
+/opt/airflow/dags/prices_dag.py                                        1           0  0.59s           2025-04-22T19:26:23
+================================================================================
+[2025-04-22T19:27:08.374+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.80s           2025-04-22T19:26:55
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.56s           2025-04-22T19:26:55
+/opt/airflow/dags/prices_dag.py                                        1           0  0.61s           2025-04-22T19:26:55
+================================================================================
+[2025-04-22T19:27:41.259+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.59s           2025-04-22T19:27:27
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.51s           2025-04-22T19:27:27
+/opt/airflow/dags/prices_dag.py                                        1           0  0.56s           2025-04-22T19:27:28
+================================================================================
+[2025-04-22T19:28:14.459+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.79s           2025-04-22T19:28:00
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.61s           2025-04-22T19:28:00
+/opt/airflow/dags/prices_dag.py                                        1           0  0.77s           2025-04-22T19:28:01
+================================================================================
+[2025-04-22T19:28:47.296+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.61s           2025-04-22T19:28:33
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.52s           2025-04-22T19:28:33
+/opt/airflow/dags/prices_dag.py                                        1           0  0.52s           2025-04-22T19:28:33
+================================================================================
+[2025-04-23T17:00:15.251+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:00:15.265+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:00:15.265+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:00:15.265+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:00:15.267+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-23T17:00:15.570+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    259  0.17s             0           0
+/opt/airflow/dags/indicator_dag.py              256  0.18s             0           0
+/opt/airflow/dags/prices_dag.py                                        0           0
+================================================================================
+[2025-04-23T17:00:48.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.70s           2025-04-23T17:00:47
+/opt/airflow/dags/prices_dag.py                                        0           1  0.51s           2025-04-23T17:00:47
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.95s           2025-04-23T17:00:47
+================================================================================
+[2025-04-23T17:01:21.439+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  1.27s           2025-04-23T17:01:18
+/opt/airflow/dags/prices_dag.py                                        0           1  0.69s           2025-04-23T17:01:19
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.36s           2025-04-23T17:01:18
+================================================================================
+[2025-04-23T17:01:54.360+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  1.04s           2025-04-23T17:01:51
+/opt/airflow/dags/prices_dag.py                                        0           1  0.53s           2025-04-23T17:01:51
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.04s           2025-04-23T17:01:51
+================================================================================
+[2025-04-23T17:02:27.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.70s           2025-04-23T17:02:23
+/opt/airflow/dags/prices_dag.py                                        0           1  0.72s           2025-04-23T17:02:23
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.63s           2025-04-23T17:02:26
+================================================================================
+[2025-04-23T17:03:00.619+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.69s           2025-04-23T17:02:56
+/opt/airflow/dags/prices_dag.py                                        0           1  0.66s           2025-04-23T17:02:56
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.45s           2025-04-23T17:02:57
+================================================================================
+[2025-04-23T17:03:33.547+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.62s           2025-04-23T17:03:29
+/opt/airflow/dags/prices_dag.py                                        0           1  0.50s           2025-04-23T17:03:29
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.58s           2025-04-23T17:03:29
+================================================================================
+[2025-04-23T17:04:06.399+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.56s           2025-04-23T17:04:01
+/opt/airflow/dags/prices_dag.py                                        0           1  0.48s           2025-04-23T17:04:02
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T17:04:01
+================================================================================
+[2025-04-23T17:04:39.356+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.55s           2025-04-23T17:04:34
+/opt/airflow/dags/prices_dag.py                                        0           1  0.54s           2025-04-23T17:04:34
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.52s           2025-04-23T17:04:34
+================================================================================
+[2025-04-23T17:04:47.690+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:06:59.598+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:06:59.599+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:06:59.600+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:06:59.600+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:06:59.601+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-04-23T17:06:59.768+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    259  0.07s             0           0
+/opt/airflow/dags/indicator_dag.py              256  0.07s             0           0
+/opt/airflow/dags/prices_dag.py                                        0           0
+================================================================================
+[2025-04-23T17:07:32.868+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.71s           2025-04-23T17:07:31
+/opt/airflow/dags/prices_dag.py                                        0           1  0.51s           2025-04-23T17:07:31
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.00s           2025-04-23T17:07:31
+================================================================================
+[2025-04-23T17:08:05.782+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.62s           2025-04-23T17:08:02
+/opt/airflow/dags/prices_dag.py                                        0           1  0.50s           2025-04-23T17:08:02
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.59s           2025-04-23T17:08:02
+================================================================================
+[2025-04-23T17:08:39.011+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.88s           2025-04-23T17:08:33
+/opt/airflow/dags/prices_dag.py                                        0           1  0.52s           2025-04-23T17:08:33
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.86s           2025-04-23T17:08:33
+================================================================================
+[2025-04-23T17:08:58.317+0000] {manager.py:1129} WARNING - Skipping processing of missing file: /opt/airflow/dags/prices_dag.py
+[2025-04-23T17:09:11.905+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  1.03s           2025-04-23T17:09:04
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.80s           2025-04-23T17:09:04
+================================================================================
+[2025-04-23T17:09:44.726+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.53s           2025-04-23T17:09:35
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.56s           2025-04-23T17:09:35
+================================================================================
+[2025-04-23T17:10:17.528+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.51s           2025-04-23T17:10:06
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.49s           2025-04-23T17:10:05
+================================================================================
+[2025-04-23T17:10:34.973+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:11:07.632+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:11:07.632+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:11:07.632+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:11:07.633+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:11:07.635+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:11:07.791+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    222  0.04s             0           0
+/opt/airflow/dags/indicator_dag.py              219  0.06s             0           0
+================================================================================
+[2025-04-23T17:11:41.055+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.86s           2025-04-23T17:11:40
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.93s           2025-04-23T17:11:40
+================================================================================
+[2025-04-23T17:12:14.434+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.72s           2025-04-23T17:12:12
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T17:12:12
+================================================================================
+[2025-04-23T17:12:47.696+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.63s           2025-04-23T17:12:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.41s           2025-04-23T17:12:45
+================================================================================
+[2025-04-23T17:13:20.584+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.64s           2025-04-23T17:13:18
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.04s           2025-04-23T17:13:00
+================================================================================
+[2025-04-23T17:13:53.419+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.82s           2025-04-23T17:13:43
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.75s           2025-04-23T17:13:32
+================================================================================
+[2025-04-23T17:14:26.620+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.65s           2025-04-23T17:14:15
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.36s           2025-04-23T17:14:02
+================================================================================
+[2025-04-23T17:14:59.370+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.52s           2025-04-23T17:14:46
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.42s           2025-04-23T17:14:33
+================================================================================
+[2025-04-23T17:15:32.377+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.59s           2025-04-23T17:15:17
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.67s           2025-04-23T17:15:04
+================================================================================
+[2025-04-23T17:16:05.480+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.84s           2025-04-23T17:15:48
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.41s           2025-04-23T17:16:04
+================================================================================
+[2025-04-23T17:16:08.087+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:16:08.088+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:16:38.317+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.60s           2025-04-23T17:16:19
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.39s           2025-04-23T17:16:35
+================================================================================
+[2025-04-23T17:17:11.235+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.55s           2025-04-23T17:17:11
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.51s           2025-04-23T17:17:07
+================================================================================
+[2025-04-23T17:17:44.129+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.83s           2025-04-23T17:17:42
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.60s           2025-04-23T17:17:40
+================================================================================
+[2025-04-23T17:18:16.983+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  1.01s           2025-04-23T17:18:13
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.59s           2025-04-23T17:18:12
+================================================================================
+[2025-04-23T17:18:50.327+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.53s           2025-04-23T17:18:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.48s           2025-04-23T17:18:45
+================================================================================
+[2025-04-23T17:19:23.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.60s           2025-04-23T17:19:18
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.56s           2025-04-23T17:19:18
+================================================================================
+[2025-04-23T17:19:57.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.60s           2025-04-23T17:19:51
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.56s           2025-04-23T17:19:51
+================================================================================
+[2025-04-23T17:20:30.478+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.60s           2025-04-23T17:20:23
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T17:20:23
+================================================================================
+[2025-04-23T17:21:04.102+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.82s           2025-04-23T17:20:57
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.79s           2025-04-23T17:20:57
+================================================================================
+[2025-04-23T17:21:08.116+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:21:08.118+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:21:37.632+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.71s           2025-04-23T17:21:29
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.66s           2025-04-23T17:21:29
+================================================================================
+[2025-04-23T17:22:10.978+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.56s           2025-04-23T17:22:01
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.51s           2025-04-23T17:22:01
+================================================================================
+[2025-04-23T17:22:16.651+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:23:53.694+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:23:53.696+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:23:53.696+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:23:53.696+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:23:53.697+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:23:53.812+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    256  0.04s             0           0
+/opt/airflow/dags/indicator_dag.py              259  0.04s             0           0
+================================================================================
+[2025-04-23T17:24:27.256+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.50s           2025-04-23T17:24:25
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.70s           2025-04-23T17:24:24
+================================================================================
+[2025-04-23T17:25:00.113+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.53s           2025-04-23T17:24:56
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.49s           2025-04-23T17:24:55
+================================================================================
+[2025-04-23T17:25:24.104+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:27:48.714+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:27:48.715+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:27:48.715+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:27:48.715+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:27:48.718+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:27:48.866+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    256  0.06s             0           0
+/opt/airflow/dags/indicator_dag.py              259  0.05s             0           0
+================================================================================
+[2025-04-23T17:28:21.803+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.56s           2025-04-23T17:28:20
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.93s           2025-04-23T17:28:20
+================================================================================
+[2025-04-23T17:28:54.785+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.55s           2025-04-23T17:28:51
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.70s           2025-04-23T17:28:51
+================================================================================
+[2025-04-23T17:29:27.712+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.52s           2025-04-23T17:29:22
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.57s           2025-04-23T17:29:22
+================================================================================
+[2025-04-23T17:30:00.458+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.58s           2025-04-23T17:29:53
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.34s           2025-04-23T17:29:52
+================================================================================
+[2025-04-23T17:30:33.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.68s           2025-04-23T17:30:19
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.50s           2025-04-23T17:30:23
+================================================================================
+[2025-04-23T17:30:33.480+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:33:43.815+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:33:43.816+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:33:43.817+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:33:43.818+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:33:43.820+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:33:43.955+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    257  0.05s             0           0
+/opt/airflow/dags/indicator_dag.py              260  0.04s             0           0
+================================================================================
+[2025-04-23T17:34:16.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.55s           2025-04-23T17:34:15
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.87s           2025-04-23T17:34:15
+================================================================================
+[2025-04-23T17:34:49.908+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.56s           2025-04-23T17:34:46
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.58s           2025-04-23T17:34:46
+================================================================================
+[2025-04-23T17:35:22.878+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.65s           2025-04-23T17:35:17
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.80s           2025-04-23T17:35:17
+================================================================================
+[2025-04-23T17:35:55.696+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.65s           2025-04-23T17:35:48
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.34s           2025-04-23T17:35:48
+================================================================================
+[2025-04-23T17:36:28.893+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.57s           2025-04-23T17:36:06
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.58s           2025-04-23T17:36:18
+================================================================================
+[2025-04-23T17:37:02.334+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.73s           2025-04-23T17:36:37
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.52s           2025-04-23T17:36:53
+================================================================================
+[2025-04-23T17:37:35.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  0.60s           2025-04-23T17:37:08
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.50s           2025-04-23T17:37:24
+================================================================================
+[2025-04-23T17:37:36.868+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-23T17:38:57.771+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-04-23T17:38:57.772+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-04-23T17:38:57.772+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-23T17:38:57.772+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:38:57.773+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:38:57.919+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/prices_data_diff_method.py    259  0.06s             0           0
+/opt/airflow/dags/indicator_dag.py              256  0.07s             0           0
+================================================================================
+[2025-04-23T17:39:30.821+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.62s           2025-04-23T17:39:29
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.83s           2025-04-23T17:39:29
+================================================================================
+[2025-04-23T17:40:04.336+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.75s           2025-04-23T17:40:02
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.67s           2025-04-23T17:40:02
+================================================================================
+[2025-04-23T17:40:37.625+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.54s           2025-04-23T17:40:34
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.48s           2025-04-23T17:40:34
+================================================================================
+[2025-04-23T17:41:10.872+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.61s           2025-04-23T17:41:08
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.40s           2025-04-23T17:41:07
+================================================================================
+[2025-04-23T17:41:44.351+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.70s           2025-04-23T17:41:40
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.62s           2025-04-23T17:41:40
+================================================================================
+[2025-04-23T17:42:17.795+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.68s           2025-04-23T17:42:12
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.59s           2025-04-23T17:42:07
+================================================================================
+[2025-04-23T17:42:50.710+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.70s           2025-04-23T17:42:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.35s           2025-04-23T17:42:38
+================================================================================
+[2025-04-23T17:43:24.082+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.58s           2025-04-23T17:43:18
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T17:43:09
+================================================================================
+[2025-04-23T17:43:57.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.73s           2025-04-23T17:43:51
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.55s           2025-04-23T17:43:30
+================================================================================
+[2025-04-23T17:43:58.244+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:43:58.245+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:44:30.427+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.59s           2025-04-23T17:44:23
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.37s           2025-04-23T17:44:01
+================================================================================
+[2025-04-23T17:45:03.698+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.79s           2025-04-23T17:44:56
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.48s           2025-04-23T17:44:52
+================================================================================
+[2025-04-23T17:45:37.079+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.57s           2025-04-23T17:45:29
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.56s           2025-04-23T17:45:23
+================================================================================
+[2025-04-23T17:46:10.668+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.51s           2025-04-23T17:46:01
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.49s           2025-04-23T17:45:53
+================================================================================
+[2025-04-23T17:46:43.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.52s           2025-04-23T17:46:34
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.48s           2025-04-23T17:46:25
+================================================================================
+[2025-04-23T17:47:16.304+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.53s           2025-04-23T17:47:07
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.45s           2025-04-23T17:46:55
+================================================================================
+[2025-04-23T17:47:49.156+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.65s           2025-04-23T17:47:40
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.46s           2025-04-23T17:47:26
+================================================================================
+[2025-04-23T17:48:22.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.75s           2025-04-23T17:48:12
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.26s           2025-04-23T17:47:58
+================================================================================
+[2025-04-23T17:48:54.861+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.87s           2025-04-23T17:48:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.03s           2025-04-23T17:48:30
+================================================================================
+[2025-04-23T17:48:58.730+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:48:58.732+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:49:28.090+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.61s           2025-04-23T17:49:18
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T17:49:01
+================================================================================
+[2025-04-23T17:50:01.614+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.68s           2025-04-23T17:49:44
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.47s           2025-04-23T17:49:31
+================================================================================
+[2025-04-23T17:50:34.652+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.74s           2025-04-23T17:50:15
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.45s           2025-04-23T17:50:33
+================================================================================
+[2025-04-23T17:51:07.942+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.89s           2025-04-23T17:50:46
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.81s           2025-04-23T17:51:04
+================================================================================
+[2025-04-23T17:51:40.809+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.03s           2025-04-23T17:51:18
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.03s           2025-04-23T17:51:35
+================================================================================
+[2025-04-23T17:52:13.576+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.08s           2025-04-23T17:51:49
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.90s           2025-04-23T17:52:07
+================================================================================
+[2025-04-23T17:52:46.545+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.96s           2025-04-23T17:52:21
+/opt/airflow/dags/indicator_dag.py              833  8.17s             1           0  0.90s           2025-04-23T17:52:07
+================================================================================
+[2025-04-23T17:53:19.410+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.98s           2025-04-23T17:52:53
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.79s           2025-04-23T17:53:18
+================================================================================
+[2025-04-23T17:53:52.213+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.83s           2025-04-23T17:53:25
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.97s           2025-04-23T17:53:49
+================================================================================
+[2025-04-23T17:54:02.485+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:54:04.734+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:54:36.403+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py    869  40.99s            1           0  0.83s           2025-04-23T17:53:25
+/opt/airflow/dags/indicator_dag.py              872  0.01s             1           0  0.97s           2025-04-23T17:53:49
+================================================================================
+[2025-04-23T17:55:06.275+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0           1  43.13s          2025-04-23T17:54:38
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.63s           2025-04-23T17:55:03
+================================================================================
+[2025-04-23T17:55:44.153+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.57s           2025-04-23T17:55:34
+/opt/airflow/dags/prices_data_diff_method.py    901  0.01s             1           0  0.64s           2025-04-23T17:55:12
+================================================================================
+[2025-04-23T17:56:17.556+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.43s           2025-04-23T17:56:06
+/opt/airflow/dags/prices_data_diff_method.py    916  0.70s             1           0  0.58s           2025-04-23T17:55:44
+================================================================================
+[2025-04-23T17:56:50.396+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.44s           2025-04-23T17:56:37
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.56s           2025-04-23T17:56:50
+================================================================================
+[2025-04-23T17:57:23.586+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.56s           2025-04-23T17:57:08
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.93s           2025-04-23T17:57:23
+================================================================================
+[2025-04-23T17:57:56.874+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.47s           2025-04-23T17:57:39
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.65s           2025-04-23T17:57:56
+================================================================================
+[2025-04-23T17:58:29.573+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.53s           2025-04-23T17:58:09
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.22s           2025-04-23T17:58:28
+================================================================================
+[2025-04-23T17:59:02.709+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T17:59:02.710+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T17:59:02.719+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.42s           2025-04-23T17:58:49
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.53s           2025-04-23T17:59:01
+================================================================================
+[2025-04-23T17:59:35.993+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.45s           2025-04-23T17:59:20
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.57s           2025-04-23T17:59:34
+================================================================================
+[2025-04-23T18:00:08.764+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  5.10s           2025-04-23T18:00:07
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.93s           2025-04-23T18:00:07
+================================================================================
+[2025-04-23T18:00:42.265+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.69s           2025-04-23T18:00:39
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.75s           2025-04-23T18:00:39
+================================================================================
+[2025-04-23T18:01:15.688+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.57s           2025-04-23T18:01:12
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.66s           2025-04-23T18:01:12
+================================================================================
+[2025-04-23T18:01:48.624+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.45s           2025-04-23T18:01:48
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.66s           2025-04-23T18:01:44
+================================================================================
+[2025-04-23T18:02:21.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.51s           2025-04-23T18:02:11
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.55s           2025-04-23T18:02:17
+================================================================================
+[2025-04-23T18:02:54.347+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.49s           2025-04-23T18:02:42
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.69s           2025-04-23T18:02:50
+================================================================================
+[2025-04-23T18:03:27.140+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.54s           2025-04-23T18:03:12
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.82s           2025-04-23T18:03:23
+================================================================================
+[2025-04-23T18:03:59.991+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.57s           2025-04-23T18:03:43
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.56s           2025-04-23T18:03:55
+================================================================================
+[2025-04-23T18:04:03.002+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T18:04:03.003+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T18:04:33.318+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.46s           2025-04-23T18:04:14
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.67s           2025-04-23T18:04:28
+================================================================================
+[2025-04-23T18:05:06.351+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/indicator_dag.py                                     0           1  0.50s           2025-04-23T18:04:45
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.59s           2025-04-23T18:05:01
+================================================================================
+[2025-04-23T18:05:39.752+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.63s           2025-04-23T18:05:33
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.50s           2025-04-23T18:05:16
+================================================================================
+[2025-04-23T18:06:12.723+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  0.58s           2025-04-23T18:06:06
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.54s           2025-04-23T18:05:48
+================================================================================
+[2025-04-23T18:06:45.611+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.62s           2025-04-23T18:06:40
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.52s           2025-04-23T18:06:19
+================================================================================
+[2025-04-23T18:07:19.176+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.31s           2025-04-23T18:07:13
+/opt/airflow/dags/indicator_dag.py                                     1           0  0.72s           2025-04-23T18:06:50
+================================================================================
+[2025-04-23T18:07:52.253+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           1           0  1.59s           2025-04-23T18:07:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  4.00s           2025-04-23T18:07:25
+================================================================================
+[2025-04-23T18:08:25.413+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py   1286  7.70s             1           0  1.59s           2025-04-23T18:07:45
+/opt/airflow/dags/indicator_dag.py                                     1           0  1.73s           2025-04-23T18:07:56
+================================================================================
+[2025-04-23T18:09:07.925+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T18:09:07.942+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-23T18:09:05.170+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/prices_data_diff_method.py exited with return code 1.
+[2025-04-23T18:09:05.175+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/prices_data_diff_method.py                           0          -1  47.46s          2025-04-23T18:09:05
+/opt/airflow/dags/indicator_dag.py             1292  37.54s            1           0  1.73s           2025-04-23T18:07:56
+================================================================================
+[2025-04-23T18:09:21.682+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

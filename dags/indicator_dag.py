@@ -11,7 +11,7 @@ load_dotenv()
 
 
 MONGODB_HOST = os.getenv("MONGODB_HOST", "mongodb://localhost:27017")
-MONGODB_DATABASE = os.getenv("MONGODB_DAATBASE")
+MONGODB_DATABASE = os.getenv("MONGODB_DATABASE")
 MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION")
 MYSQL_HOST = os.getenv("MYSQL_HOST", "127.0.0.1")
 MYSQL_PORT = os.getenv("MYSQL_PORT", "3306")
@@ -42,13 +42,72 @@ def calculate_rsi(df, window=14):
     return rsi
 
 
-def store_df_in_mysql(df):
-    """Store DataFrame into MySQL database."""
-    # Create SQLAlchemy engine to connect to MySQL
-    engine = create_engine(f'mysql+pymysql://{MYSQL_USERNAME}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}')
-    
-    # Insert the DataFrame into a table (e.g., 'stock_data')
-    df.to_sql('stock_data', con=engine, if_exists='replace', index=False)  # 'replace' will drop the table if it exists
+def store_df_in_mysql(df:pd.DataFrame,TICKER : str):
+    """Ensure DB exists and store DataFrame in MySQL."""
+    try:
+        # Connect without specifying database to create it if missing
+        connection = pymysql.connect(
+            host=MYSQL_HOST,
+            port=int(MYSQL_PORT),
+            user=MYSQL_USERNAME,
+            password=MYSQL_PASSWORD,
+        )
+        with connection.cursor() as cursor:
+            cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_DATABASE}`;")
+        connection.close()
+        print(f"✅ Database `{MYSQL_DATABASE}` ensured to exist.")
+
+        # Now connect to the target database
+        connection = pymysql.connect(
+            host=MYSQL_HOST,
+            port=int(MYSQL_PORT),
+            user=MYSQL_USERNAME,
+            password=MYSQL_PASSWORD,
+            database=MYSQL_DATABASE
+        )
+        with connection.cursor() as cursor:
+            # Drop and create table
+            cursor.execute(f"DROP TABLE IF EXISTS {TICKER};")
+            create_table_query = """
+                CREATE TABLE stock_data (
+                    Ticker VARCHAR(50),
+                    Date DATE,
+                    Open FLOAT,
+                    High FLOAT,
+                    Low FLOAT,
+                    Close FLOAT,
+                    Volume BIGINT,
+                    RSI FLOAT
+                );
+            """
+            cursor.execute(create_table_query)
+
+            # Handle NaN values: replace them with 0
+            df.fillna(0, inplace=True)
+
+            # Insert data
+            insert_query = """
+                INSERT INTO stock_data (Ticker, Date, Open, High, Low, Close, Volume, RSI)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+            """
+            for _, row in df.iterrows():
+                cursor.execute(insert_query, (
+                    row["Ticker"],
+                    row["Date"],
+                    row["Open"],
+                    row["High"],
+                    row["Low"],
+                    row["Close"],
+                    row["Volume"],
+                    row["RSI"]
+                ))
+            connection.commit()
+        connection.close()
+        print("✅ Data inserted into MySQL successfully.")
+
+    except Exception as e:
+        print("❌ MySQL Insert Error:", e)
+
 
 
 @dag(
@@ -70,40 +129,50 @@ def read_excel_from_mongo_with_rsi():
         collection = db[MONGODB_COLLECTION]
         file_doc = collection.find_one(sort=[("upload_time", -1)])
         file_binary = file_doc["data"]
+        TICKER = file_doc["ticker"]
         df = pd.read_excel(io.BytesIO(file_binary))
         print("DataFrame Loaded: ")
         print(df)
 
-        return df  
+        return {
+        "df": df.to_json(date_format='iso'),
+        "ticker": TICKER
+        }
 
     @task()
-    def calculate_rsi_task(df: pd.DataFrame):
+    def calculate_rsi_task(data:dict):
         """Calculate the RSI and return the modified DataFrame."""
+        df = pd.read_json(data["df"])
         df['RSI'] = calculate_rsi(df)
         print("RSI Calculated:")
         print(df[['Date', 'Close', 'RSI']])  
 
-        return df  
+        return {
+        "df": df.to_json(date_format='iso'),
+        "ticker": data["ticker"]
+            }
 
     @task()
-    def save_to_excel_to_local(df: pd.DataFrame):
+    def save_to_excel_to_local(data: dict):
         """Save the DataFrame to an Excel file locally."""
-        file_path = os.path.join(RAW_DIR, "tatasteel.xlsx")
+        df = pd.read_json(data["df"])
+        ticker = data["ticker"]
+        file_path = os.path.join(RAW_DIR, f"{ticker}.xlsx")
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         df.to_excel(file_path, index=False)
         print(f"File saved to {file_path}")
-        return df
+        return data
 
     @task()
-    def store_in_mysql_task(df: pd.DataFrame):
-        """Store the DataFrame in MySQL database."""
-        store_df_in_mysql(df)
-        print("DataFrame stored in MySQL successfully.")
+    def store_in_mysql_task(data: dict):
+        df = pd.read_json(data["df"])
+        ticker = data["ticker"]
+        store_df_in_mysql(df, ticker)
     
 
-    df = fetch_excel_from_mongo() 
-    df_with_rsi = calculate_rsi_task(df)  
-    save_local = save_to_excel_to_local(df_with_rsi)  
-    store_in_mysql_task(df)
+    data = fetch_excel_from_mongo()
+    data_with_rsi = calculate_rsi_task(data)
+    data_saved = save_to_excel_to_local(data_with_rsi)
+    store_in_mysql_task(data_saved)
 
 dag_instance = read_excel_from_mongo_with_rsi()

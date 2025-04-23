@@ -12,8 +12,16 @@ load_dotenv()
 
 DATA_DIR = os.getenv("DATA_DIR")
 MONGODB_HOST = os.getenv("MONGODB_HOST")
-MONGODB_DATABASE = os.getenv("MONGODB_DAATBASE")
+MONGODB_DATABASE = os.getenv("MONGODB_DATABASE")
 MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION")
+
+MYSQL_HOST = os.getenv("MYSQL_HOST")
+MYSQL_PORT = os.getenv("MYSQL_PORT", "3306")
+MYSQL_USERNAME = os.getenv("MYSQL_USERNAME", "root")
+MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", "Abdullah@123")
+MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", "airflow")
+
+RAW_DIR = os.path.join(DATA_DIR, "intermediate/rsi")
 
 TICKER = "TATASTEEL.NS"
 RAW_DIR = os.path.join(DATA_DIR, "raw")
@@ -77,6 +85,7 @@ def prices_pipeline():
 
         current_time = datetime.now()
         file_doc = {
+            'tikcer': TICKER,
             'filename': os.path.basename(file_path),
             'data': Binary(file_data),
             'upload_time': current_time
