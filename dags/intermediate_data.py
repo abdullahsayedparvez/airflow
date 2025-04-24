@@ -109,7 +109,7 @@ def store_df_in_mysql(df: pd.DataFrame, TICKER: str):
 
 
 @dag(
-    dag_id="ticker_insicator_downloader",
+    dag_id="ticker_indicator_downloader",
     default_args=default_args,
     description="Fetch Excel file from MongoDB and calculate RSI as a separate task",
     schedule_interval=None, 

@@ -1,0 +1,15 @@
+[2025-04-24T21:36:04.216+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_prices_data_downloader_branching.save_to_excel_TATASTEEL.NS manual__2025-04-24T21:35:55.173989+00:00 [queued]>
+[2025-04-24T21:36:04.224+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_prices_data_downloader_branching.save_to_excel_TATASTEEL.NS manual__2025-04-24T21:35:55.173989+00:00 [queued]>
+[2025-04-24T21:36:04.225+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-24T21:36:04.235+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): save_to_excel_TATASTEEL.NS> on 2025-04-24 21:35:55.173989+00:00
+[2025-04-24T21:36:04.242+0000] {standard_task_runner.py:60} INFO - Started process 5241 to run task
+[2025-04-24T21:36:04.245+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'raw_prices_data_downloader_branching', 'save_to_excel_TATASTEEL.NS', 'manual__2025-04-24T21:35:55.173989+00:00', '--job-id', '240', '--raw', '--subdir', 'DAGS_FOLDER/raw_price_data_testing.py', '--cfg-path', '/tmp/tmpzz5lpot6']
+[2025-04-24T21:36:04.248+0000] {standard_task_runner.py:88} INFO - Job 240: Subtask save_to_excel_TATASTEEL.NS
+[2025-04-24T21:36:04.290+0000] {task_command.py:423} INFO - Running <TaskInstance: raw_prices_data_downloader_branching.save_to_excel_TATASTEEL.NS manual__2025-04-24T21:35:55.173989+00:00 [running]> on host 8291240c5d79
+[2025-04-24T21:36:04.391+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='raw_prices_data_downloader_branching' AIRFLOW_CTX_TASK_ID='save_to_excel_TATASTEEL.NS' AIRFLOW_CTX_EXECUTION_DATE='2025-04-24T21:35:55.173989+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-24T21:35:55.173989+00:00'
+[2025-04-24T21:36:04.709+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py:2709 UserWarning: MongoClient opened before fork. May not be entirely fork-safe, proceed with caution. See PyMongo's documentation for details: https://dochub.mongodb.org/core/pymongo-fork-deadlock
+[2025-04-24T21:36:04.729+0000] {logging_mixin.py:188} INFO - ✅ Stored TATASTEEL.NS in MongoDB: /opt/***/data/raw/TATASTEEL.NS.xlsx
+[2025-04-24T21:36:04.729+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-04-24T21:36:04.740+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=raw_prices_data_downloader_branching, task_id=save_to_excel_TATASTEEL.NS, execution_date=20250424T213555, start_date=20250424T213604, end_date=20250424T213604
+[2025-04-24T21:36:04.777+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-24T21:36:04.795+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

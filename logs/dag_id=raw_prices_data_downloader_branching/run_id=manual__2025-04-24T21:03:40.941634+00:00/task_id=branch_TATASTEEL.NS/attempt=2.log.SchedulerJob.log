@@ -1,0 +1,1 @@
+[2025-04-24T21:05:12.878+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: raw_prices_data_downloader_branching.branch_TATASTEEL.NS manual__2025-04-24T21:03:40.941634+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

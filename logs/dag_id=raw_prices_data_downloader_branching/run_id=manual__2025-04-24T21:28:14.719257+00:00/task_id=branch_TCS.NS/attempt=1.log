@@ -1,0 +1,18 @@
+[2025-04-24T21:28:17.802+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_prices_data_downloader_branching.branch_TCS.NS manual__2025-04-24T21:28:14.719257+00:00 [queued]>
+[2025-04-24T21:28:17.810+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_prices_data_downloader_branching.branch_TCS.NS manual__2025-04-24T21:28:14.719257+00:00 [queued]>
+[2025-04-24T21:28:17.810+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-24T21:28:17.823+0000] {taskinstance.py:2191} INFO - Executing <Task(BranchPythonOperator): branch_TCS.NS> on 2025-04-24 21:28:14.719257+00:00
+[2025-04-24T21:28:17.835+0000] {standard_task_runner.py:60} INFO - Started process 4825 to run task
+[2025-04-24T21:28:17.844+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'raw_prices_data_downloader_branching', 'branch_TCS.NS', 'manual__2025-04-24T21:28:14.719257+00:00', '--job-id', '235', '--raw', '--subdir', 'DAGS_FOLDER/raw_price_data_testing.py', '--cfg-path', '/tmp/tmp2ys706lf']
+[2025-04-24T21:28:17.848+0000] {standard_task_runner.py:88} INFO - Job 235: Subtask branch_TCS.NS
+[2025-04-24T21:28:17.914+0000] {task_command.py:423} INFO - Running <TaskInstance: raw_prices_data_downloader_branching.branch_TCS.NS manual__2025-04-24T21:28:14.719257+00:00 [running]> on host 8291240c5d79
+[2025-04-24T21:28:18.036+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='raw_prices_data_downloader_branching' AIRFLOW_CTX_TASK_ID='branch_TCS.NS' AIRFLOW_CTX_EXECUTION_DATE='2025-04-24T21:28:14.719257+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-24T21:28:14.719257+00:00'
+[2025-04-24T21:28:18.045+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/pymongo/synchronous/mongo_client.py:2709 UserWarning: MongoClient opened before fork. May not be entirely fork-safe, proceed with caution. See PyMongo's documentation for details: https://dochub.mongodb.org/core/pymongo-fork-deadlock
+[2025-04-24T21:28:18.068+0000] {logging_mixin.py:188} INFO - ⏭️ Skipping TCS.NS: Data already exists in MongoDB for today.
+[2025-04-24T21:28:18.068+0000] {python.py:201} INFO - Done. Returned value was: skip_task_TCS.NS
+[2025-04-24T21:28:18.069+0000] {branch.py:35} INFO - Branch into skip_task_TCS.NS
+[2025-04-24T21:28:18.069+0000] {skipmixin.py:178} INFO - Following branch skip_task_TCS.NS
+[2025-04-24T21:28:18.093+0000] {skipmixin.py:244} INFO - Skipping tasks [('fetch_data_TCS.NS', -1)]
+[2025-04-24T21:28:18.151+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=raw_prices_data_downloader_branching, task_id=branch_TCS.NS, execution_date=20250424T212814, start_date=20250424T212817, end_date=20250424T212818
+[2025-04-24T21:28:18.176+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-24T21:28:18.226+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
