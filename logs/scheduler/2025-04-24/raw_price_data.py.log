@@ -1,0 +1,102 @@
+[2025-04-24T19:02:04.154+0000] {processor.py:161} INFO - Started process (PID=1568) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:04.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:02:04.156+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:04.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:05.371+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:05.920+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:05.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:02:05.933+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:05.932+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-24T19:02:05.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 1.808 seconds
+[2025-04-24T19:02:36.559+0000] {processor.py:161} INFO - Started process (PID=1584) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:36.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:02:36.560+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:36.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:37.303+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:02:37.333+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:37.332+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:02:37.350+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:02:37.350+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-24T19:02:37.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.819 seconds
+[2025-04-24T19:03:13.211+0000] {processor.py:161} INFO - Started process (PID=1598) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:13.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:03:13.219+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:13.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:14.525+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:14.562+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:14.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:03:14.578+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:14.577+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-24T19:03:14.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 1.405 seconds
+[2025-04-24T19:03:45.410+0000] {processor.py:161} INFO - Started process (PID=1615) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:45.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:03:45.413+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:45.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:46.198+0000] {processor.py:840} INFO - DAG(s) 'prices_dag_taskflow' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:46.267+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:46.266+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:03:46.279+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:46.278+0000] {dag.py:3823} INFO - Setting next_dagrun for prices_dag_taskflow to None, run_after=None
+[2025-04-24T19:03:46.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.891 seconds
+[2025-04-24T19:03:47.338+0000] {processor.py:161} INFO - Started process (PID=1624) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:47.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:03:47.340+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:47.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:48.217+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:03:48.376+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.376+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:raw_prices_data_downloader
+[2025-04-24T19:03:48.386+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.386+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:raw_prices_data_downloader
+[2025-04-24T19:03:48.392+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.391+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:raw_prices_data_downloader
+[2025-04-24T19:03:48.392+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:03:48.401+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.401+0000] {dag.py:3058} INFO - Creating ORM DAG for raw_prices_data_downloader
+[2025-04-24T19:03:48.402+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:03:48.401+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:03:48.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 1.087 seconds
+[2025-04-24T19:04:19.049+0000] {processor.py:161} INFO - Started process (PID=1639) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:19.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:04:19.051+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:19.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:20.039+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:20.120+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:20.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:04:20.132+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:20.132+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:04:20.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 1.107 seconds
+[2025-04-24T19:04:50.747+0000] {processor.py:161} INFO - Started process (PID=1676) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:50.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:04:50.749+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:50.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:51.506+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:04:51.533+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:51.532+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:04:51.542+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:04:51.542+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:04:51.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.814 seconds
+[2025-04-24T19:05:21.845+0000] {processor.py:161} INFO - Started process (PID=1691) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:21.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:05:21.847+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:21.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:22.409+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:22.429+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:22.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:05:22.439+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:22.438+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:05:22.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.610 seconds
+[2025-04-24T19:05:52.801+0000] {processor.py:161} INFO - Started process (PID=1708) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:52.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:05:52.803+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:52.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:53.477+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:05:53.521+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:53.520+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:05:53.532+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:05:53.532+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:05:53.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.751 seconds
+[2025-04-24T19:06:24.397+0000] {processor.py:161} INFO - Started process (PID=1736) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:24.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:06:24.398+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:24.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:24.938+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:24.960+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:24.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:06:24.969+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:24.969+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:06:24.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.590 seconds
+[2025-04-24T19:06:55.291+0000] {processor.py:161} INFO - Started process (PID=1751) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:55.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:06:55.292+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:55.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:55.856+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:06:55.874+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:55.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:06:55.883+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:06:55.883+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:06:55.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.608 seconds
+[2025-04-24T19:07:26.187+0000] {processor.py:161} INFO - Started process (PID=1766) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:26.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:07:26.189+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:26.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:26.749+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:26.769+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:26.769+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:07:26.780+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:26.780+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:07:26.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.609 seconds
+[2025-04-24T19:07:57.108+0000] {processor.py:161} INFO - Started process (PID=1781) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:57.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:07:57.110+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:57.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:57.709+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:07:57.730+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:57.730+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:07:57.739+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:07:57.739+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:07:57.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.649 seconds
+[2025-04-24T19:08:28.002+0000] {processor.py:161} INFO - Started process (PID=1796) to work on /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:08:28.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/raw_price_data.py for tasks to queue
+[2025-04-24T19:08:28.005+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:08:28.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:08:28.514+0000] {processor.py:840} INFO - DAG(s) 'raw_prices_data_downloader' retrieved from /opt/airflow/dags/raw_price_data.py
+[2025-04-24T19:08:28.536+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:08:28.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-04-24T19:08:28.547+0000] {logging_mixin.py:188} INFO - [2025-04-24T19:08:28.547+0000] {dag.py:3823} INFO - Setting next_dagrun for raw_prices_data_downloader to None, run_after=None
+[2025-04-24T19:08:28.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/raw_price_data.py took 0.562 seconds

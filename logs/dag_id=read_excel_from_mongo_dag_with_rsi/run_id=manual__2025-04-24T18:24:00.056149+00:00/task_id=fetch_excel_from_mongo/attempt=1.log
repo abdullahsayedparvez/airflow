@@ -1,0 +1,26 @@
+[2025-04-24T18:24:02.594+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.fetch_excel_from_mongo manual__2025-04-24T18:24:00.056149+00:00 [queued]>
+[2025-04-24T18:24:02.602+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_excel_from_mongo_dag_with_rsi.fetch_excel_from_mongo manual__2025-04-24T18:24:00.056149+00:00 [queued]>
+[2025-04-24T18:24:02.602+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-24T18:24:02.615+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): fetch_excel_from_mongo> on 2025-04-24 18:24:00.056149+00:00
+[2025-04-24T18:24:02.626+0000] {standard_task_runner.py:60} INFO - Started process 281 to run task
+[2025-04-24T18:24:02.633+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'read_excel_from_mongo_dag_with_rsi', 'fetch_excel_from_mongo', 'manual__2025-04-24T18:24:00.056149+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/indicator_dag.py', '--cfg-path', '/tmp/tmp4gb1i3jt']
+[2025-04-24T18:24:02.640+0000] {standard_task_runner.py:88} INFO - Job 103: Subtask fetch_excel_from_mongo
+[2025-04-24T18:24:02.728+0000] {task_command.py:423} INFO - Running <TaskInstance: read_excel_from_mongo_dag_with_rsi.fetch_excel_from_mongo manual__2025-04-24T18:24:00.056149+00:00 [running]> on host 8291240c5d79
+[2025-04-24T18:24:02.865+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_excel_from_mongo_dag_with_rsi' AIRFLOW_CTX_TASK_ID='fetch_excel_from_mongo' AIRFLOW_CTX_EXECUTION_DATE='2025-04-24T18:24:00.056149+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-24T18:24:00.056149+00:00'
+[2025-04-24T18:24:02.921+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/indicator_dag.py", line 132, in fetch_excel_from_mongo
+    TICKER = file_doc["ticker"]
+KeyError: 'ticker'
+[2025-04-24T18:24:02.939+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=read_excel_from_mongo_dag_with_rsi, task_id=fetch_excel_from_mongo, execution_date=20250424T182400, start_date=20250424T182402, end_date=20250424T182402
+[2025-04-24T18:24:02.956+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 103 for task fetch_excel_from_mongo ('ticker'; 281)
+[2025-04-24T18:24:02.968+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-04-24T18:24:02.990+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

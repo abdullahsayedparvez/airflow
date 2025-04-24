@@ -38,7 +38,7 @@ default_args = {
 }
 
 @dag(
-    dag_id="prices_dag_taskflow",
+    dag_id="raw_prices_data_downloader",
     default_args=default_args,
     description="Fetch and store Tata Steel data using TaskFlow API",
     schedule_interval=None,
@@ -85,7 +85,7 @@ def prices_pipeline():
 
         current_time = datetime.now()
         file_doc = {
-            'tikcer': TICKER,
+            'ticker': TICKER,
             'filename': os.path.basename(file_path),
             'data': Binary(file_data),
             'upload_time': current_time

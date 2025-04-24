@@ -42,34 +42,30 @@ def calculate_rsi(df, window=14):
     return rsi
 
 
-def store_df_in_mysql(df:pd.DataFrame,TICKER : str):
-    """Ensure DB exists and store DataFrame in MySQL."""
+def store_df_in_mysql(df: pd.DataFrame, TICKER: str):
+    """Create DB if needed, use it, and store the DataFrame into MySQL."""
     try:
-        # Connect without specifying database to create it if missing
+        # Single connection — no DB selected yet
         connection = pymysql.connect(
             host=MYSQL_HOST,
             port=int(MYSQL_PORT),
             user=MYSQL_USERNAME,
-            password=MYSQL_PASSWORD,
+            password=MYSQL_PASSWORD
         )
-        with connection.cursor() as cursor:
-            cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_DATABASE}`;")
-        connection.close()
-        print(f"✅ Database `{MYSQL_DATABASE}` ensured to exist.")
 
-        # Now connect to the target database
-        connection = pymysql.connect(
-            host=MYSQL_HOST,
-            port=int(MYSQL_PORT),
-            user=MYSQL_USERNAME,
-            password=MYSQL_PASSWORD,
-            database=MYSQL_DATABASE
-        )
         with connection.cursor() as cursor:
-            # Drop and create table
-            cursor.execute(f"DROP TABLE IF EXISTS {TICKER};")
-            create_table_query = """
-                CREATE TABLE stock_data (
+            # 1️⃣ Ensure database exists
+            cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{MYSQL_DATABASE}`;")
+            connection.commit()
+            print(f"✅ Database `{MYSQL_DATABASE}` ensured.")
+
+            # 2️⃣ Use the database
+            cursor.execute(f"USE `{MYSQL_DATABASE}`;")
+
+            # 3️⃣ Drop and create the table
+            cursor.execute(f"DROP TABLE IF EXISTS `{TICKER}`;")
+            create_table_query = f"""
+                CREATE TABLE `{TICKER}` (
                     Ticker VARCHAR(50),
                     Date DATE,
                     Open FLOAT,
@@ -82,12 +78,12 @@ def store_df_in_mysql(df:pd.DataFrame,TICKER : str):
             """
             cursor.execute(create_table_query)
 
-            # Handle NaN values: replace them with 0
+            # 4️⃣ Clean NaNs
             df.fillna(0, inplace=True)
 
-            # Insert data
-            insert_query = """
-                INSERT INTO stock_data (Ticker, Date, Open, High, Low, Close, Volume, RSI)
+            # 5️⃣ Insert rows
+            insert_query = f"""
+                INSERT INTO `{TICKER}` (Ticker, Date, Open, High, Low, Close, Volume, RSI)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
             """
             for _, row in df.iterrows():
@@ -101,9 +97,11 @@ def store_df_in_mysql(df:pd.DataFrame,TICKER : str):
                     row["Volume"],
                     row["RSI"]
                 ))
+
             connection.commit()
+            print("✅ Data inserted into MySQL successfully.")
+
         connection.close()
-        print("✅ Data inserted into MySQL successfully.")
 
     except Exception as e:
         print("❌ MySQL Insert Error:", e)
@@ -111,7 +109,7 @@ def store_df_in_mysql(df:pd.DataFrame,TICKER : str):
 
 
 @dag(
-    dag_id="read_excel_from_mongo_dag_with_rsi",
+    dag_id="ticker_insicator_downloader",
     default_args=default_args,
     description="Fetch Excel file from MongoDB and calculate RSI as a separate task",
     schedule_interval=None, 
